@@ -12,7 +12,7 @@ struct Explosion{
 void ExpInit(Explosion& exp, sf::Vector2f pos) {
 	exp.pos = pos;
 	for (int i = 0; i < 9; i++) {
-		exp.textureArr[i].loadFromFile("regularExplosion0" + std::to_string(i) + ".png");
+		exp.textureArr[i].loadFromFile("msg-757388572-266" + std::to_string(i+18) + ".jpg");
 	}
 	exp.sprite.setTexture(exp.textureArr[0]);
 	exp.sprite.setPosition(exp.pos);
